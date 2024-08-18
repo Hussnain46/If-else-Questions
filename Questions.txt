@@ -1,0 +1,56 @@
+Introduction to Programming
+Assignment : 02
+
+ 
+
+Write code for the following questions.
+1) Basic If-Else Usage:
+Write a program that takes an integer input from the user. If the number is even, print "Even", otherwise print "Odd".
+
+2) Simple Login System:
+Create a program with username "admin" and password "12345". Ask the user to enter username and password. If both are correct, print "Login successful"; otherwise, print "Login failed".
+
+3) Grading System:
+Write a Python program that asks for a student's mark (between 0 and 100). If the mark is below 50, print "Fail"; if the mark is between 50 and 60, print "Pass"; between 61 and 75, print "Good"; between 76 and 90, print "Very Good"; and above 90, print "Excellent".
+
+4) Nested If-Else (Age and Driving License):
+Write a program that asks the user their age. If the user is less than 18, print "You are too young to drive". If the user is 18 or older, ask if they have a driving license (yes/no). If they have one, print "You can drive"; otherwise, print "You need a driving license to drive".
+
+5) Temperature Advice:
+Write a program that asks the user for the current temperature. If the temperature is below 0, print "It's freezing—consider staying home". If it is between 0 and 18, print "It's cold—wear warm clothes". If it is between 19 and 35, print "Nice weather today". If the temperature is above 35, print "It's hot—stay hydrated".
+
+6) Handling Different User Input Types:
+Write a program where a user can type "start" or "stop". If the user types "start", print "Machine started"; if "stop", print "Machine stopped". For any other input, print "Unknown command".
+
+7) Eligibility for Voting:
+Ask the user to enter their age. If the age is less than 18, print "You are not eligible to vote yet". If 18 or older, print "You are eligible to vote". Use the pass statement to handle the condition where the user is exactly 18.
+
+8) Simple Calculator:
+Create a program that asks the user to enter two numbers and a choice of operation (add, subtract, multiply, divide). Use nested if-else statements to perform the operation and print the result. If the user chooses "divide" and the second number is 0, print "Cannot divide by zero".
+
+9) Discount System Based on Purchase Amount:
+Write a program that asks the user for their total purchase amount. If the amount is over $500, they get a 20% discount; between $200 and $500, a 10% discount; and for less than $200, a 5% discount. Print the final amount after discount.
+
+10) Leap Year Checker:
+Write a program that asks the user to input a year and checks whether it is a leap year. A year is a leap year if it is divisible by 4, except for years that are divisible by 100, unless they are also divisible by 400.
+
+11) Sorting Three Numbers:
+Ask the user to enter three different numbers. Write a program that will print these numbers in ascending order without using lists or sort functions. Use nested if-else statements.
+
+12) Day Schedule Program:
+Write a program that asks the user to input the day of the week. Depending on the day, print different activities (e.g., Monday - Coding, Tuesday - Meeting, etc.). Include a message for weekends saying "Time to relax!" and for invalid inputs, provide an error message.
+
+13) Complex Number Classification:
+Create a program that takes two integers, representing the real and imaginary parts of a complex number. Classify the number as purely real, purely imaginary, or neither, and print the result.
+
+14) Age Group Categorization:
+Write a program that takes the user's age and categorizes them into different age groups: 0-12 "Child", 13-19 "Teenager", 20-35 "Young Adult", 36-55 "Adult", 56+ "Senior". For each category, print an appropriate message.
+
+15) Check Multiple Conditions:
+Ask for three inputs from the user: age, a boolean indicating if they are a student, and another boolean indicating if they have a scholarship. Use nested conditions to determine if they get a discount on software purchase. Rules: Under 18 or a student gets 20% off; students with scholarships get an additional 10% off.
+
+16) Fitness Level Tester:
+A program prompts the user for the number of push-ups and sit-ups they can perform. If the user can do more than 40 push-ups and more than 50 sit-ups, print "High fitness level". If they can do 20 to 40 push-ups and 30 to 50 sit-ups, print "Average fitness level". Otherwise, print "Low fitness level".
+
+17) Traffic Light Simulator:
+Write a program that simulates traffic lights. The user inputs "green", "yellow", or "red". If "green", print "Go". If "yellow", print "Slow down". If "red", print "Stop". Include a check for invalid inputs, and use the exit() function to terminate if the input is "quit".
